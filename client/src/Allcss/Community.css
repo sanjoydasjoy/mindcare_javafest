@@ -1,0 +1,41 @@
+
+.section {
+    width: 100vw; /* Full viewport width */
+    padding: 10px 100px; /* Optional padding to prevent content from touching the edges */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    margin-top: 64px; /* Adjust based on your design */
+  }
+  
+  .heading {
+    font-size: 2rem; /* Adjust based on your design */
+    font-weight: bold;
+    margin-bottom: 32px; /* Adjust based on your design */
+  }
+  
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust card width */
+    gap: 62px; /* Adjust based on your design */
+  }
+  
+  .card {
+    background-color: #f7fafc; /* Adjust based on your design */
+    border-radius: 8px;
+    padding: 24px; /* Adjust based on your design */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: Ensure card takes full width within the grid cell */
+    width: 100%; 
+    box-sizing: border-box;
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Adjust based on your design */
+    font-weight: bold;
+    margin-bottom: 16px; /* Adjust based on your design */
+  }
+  
+  .card-text {
+    color: #121419; /* Adjust based on your design */
+  }
+  

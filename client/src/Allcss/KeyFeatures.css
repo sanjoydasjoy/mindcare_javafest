@@ -1,0 +1,67 @@
+/* Ensure the section takes full width */
+.section {
+  width: 100vw; /* Full viewport width */
+  padding: 0 100px; /* Optional padding to prevent content from touching the edges */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+  margin-top: 64px; /* Adjust based on your design */
+}
+
+.heading {
+  font-size: 2rem; /* Adjust based on your design */
+  font-weight: bold;
+  margin-bottom: 32px; /* Adjust based on your design */
+}
+
+/* Updated grid layout to accommodate larger cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Increase min width of cards */
+  gap: 62px; /* Adjust based on your design */
+}
+
+.card {
+  background-color: #f7fafc; /* Adjust based on your design */
+  border-radius: 8px;
+  padding: 24px; /* Adjust based on your design */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Optional: Ensure card takes full width within the grid cell */
+  width: 100%; 
+  box-sizing: border-box;
+  position: relative; /* Add relative positioning to allow absolute positioning of the icon container */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Adjust based on your design */
+  font-weight: bold;
+  margin-bottom: 16px; /* Adjust based on your design */
+}
+
+.card-text {
+  color: #4a5568; /* Adjust based on your design */
+}
+
+/* Styles for the icon container */
+.icon-container {
+  display: flex;
+  justify-content: center; /* Center the icon */
+  align-items: center;
+  width: 40px; /* Fixed width for the container */
+  height: 40px; /* Fixed height for the container */
+  background-color: #5cee49; /* Background color */
+  border-radius: 50%; /* Circular container */
+  color: #ffffff; /* Icon color */
+  text-decoration: none; /* Remove link underline */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  position: absolute; /* Absolute positioning to place container in desired location */
+  bottom: 16px; /* Position from bottom */
+  right: 16px; /* Position from right */
+}
+
+.icon-container:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.1); /* Slightly enlarge container on hover */
+}
+
+.icon {
+  font-size: 1.5rem; /* Icon size */
+}
