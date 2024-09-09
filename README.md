@@ -7,16 +7,18 @@ To get started with this project, follow these steps:
 1. **Clone/Download this Repository:**
    ```bash
    git clone <repository-url>
-   cd <repository-directory>
 
-2. **Access the folder:**
+2. **Access the frontend folder for now:**
 
+    ```bash
    cd client
 
 3. **Install the dependencies:**
 
+    ```bash
    yarn install
 
 4. **Run the app:**
 
-   yarn start
+    ```bash
+    yarn start
