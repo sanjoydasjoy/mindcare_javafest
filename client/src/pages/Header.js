@@ -12,8 +12,6 @@ export default function Header() {
   <nav className="nav-links">
     <Link to="/conditions" className="nav-item">Conditions</Link>
     <Link to="/resources" className="nav-item">Resources</Link>
-    <Link to="/assessments" className="nav-item">Assessments</Link>
-    <Link to="/community" className="nav-item">Community</Link>
     <Link to="/contact" className="nav-item">Contact</Link>
     <Link to="/about" className="nav-item">About</Link>
   </nav>
