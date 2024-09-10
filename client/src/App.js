@@ -12,8 +12,6 @@ import StressEvaluation from './pages/StressEvaluation';
 
 import Conditions from './pages/Conditions'; 
 import Resources from './pages/Resources';
-import Assessments from './pages/Assessments';
-import Community from './pages/Community';
 import Contact from './pages/Contact';
 import About from './pages/About';
 
@@ -46,8 +44,6 @@ function App() {
             {/* routes for the header elements */}
             <Route path='/conditions' element={<Conditions />} />
             <Route path='/resources' element={<Resources />} />
-            <Route path='/assessments' element={<Assessments />} />
-            <Route path='/community' element={<Community />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
 
