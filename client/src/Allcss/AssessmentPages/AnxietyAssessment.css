@@ -1,0 +1,107 @@
+/* Container for centering and padding */
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-header {
+    background: linear-gradient(to right, #3b82f6, #a855f7);
+    color: white;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .card-header p {
+    margin: 8px 0 0;
+    color: #e5e7eb;
+  }
+  
+  /* Card content styles */
+  .card-content {
+    padding: 24px;
+  }
+  
+  .progress {
+    height: 4px;
+    background-color: #e5e7eb;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress::after {
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: #3b82f6;
+    width: var(--progress-width, 0%);
+  }
+  
+  /* Question label styles */
+  label {
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 16px;
+    color: #1f2937;
+  }
+  
+  /* Radio button styles */
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  /* Answer options styles */
+  .space-y-2 > div:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  /* Footer styles */
+  .card-footer {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* Button styles
+  button {
+    width: 100%;
+    background: linear-gradient(to right, #3b82f6, #a855f7);
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #2563eb, #9333ea);
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background: #e5e7eb;
+    cursor: not-allowed;
+  }
+  .button {
+    border: none;
+    outline: none;
+  } */
