@@ -1,0 +1,110 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .anxiety-page {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .anxiety-page:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .anxiety-page h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #4a90e2;
+    padding-bottom: 15px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .anxiety-content {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 20px;
+    border-left: 3px solid #4a90e2;
+  }
+  
+  .anxiety-content p {
+    margin-bottom: 16px;
+    text-align: justify;
+  }
+  
+  .anxiety-content p:first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-right: 4px;
+    float: left;
+  }
+  
+  .anxiety-tips {
+    background-color: #f7fcff;
+    padding: 20px;
+    border-left: 6px solid #4a90e2;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .anxiety-tips h2 {
+    color: #4a90e2;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .anxiety-tips ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  .anxiety-tips ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .anxiety-tips ul li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4a90e2;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .footer-attribution {
+    font-size: 14px;
+    color: #777;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .footer-attribution a {
+    color: #0645ad;
+    text-decoration: none;
+  }
+  
+  .footer-attribution a:hover {
+    text-decoration: underline;
+  }
+  

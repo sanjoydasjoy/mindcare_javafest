@@ -1,0 +1,83 @@
+/* For light mode */
+.section {
+  width: 100vw; 
+  padding: 0 100px; 
+  box-sizing: border-box;
+  margin-top: 64px;
+}
+
+.heading {
+  font-size: 2rem; 
+  font-weight: bold;
+  margin-bottom: 32px; 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 62px; 
+}
+
+.card-got {
+  background-color: #e3e6e7; 
+  border-radius: 8px;
+  padding: 24px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  box-sizing: border-box;
+  position: relative; 
+}
+
+.card-got:hover {
+  background-color: #bedbfa; 
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.25rem; 
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #000000; /* Ensure black text for light mode */
+}
+
+.card-text {
+  color: #4a5568; 
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; 
+  height: 40px; 
+  background-color: #58cded; 
+  border-radius: 50%; 
+  color: #ffffff; 
+  text-decoration: none; 
+  transition: background-color 0.3s, transform 0.3s; 
+  position: absolute; 
+  bottom: 16px; 
+  right: 16px; 
+}
+
+.icon-container:hover {
+  background-color: #0056b3; 
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 1.5rem; 
+}
+
+/* For dark mode */
+[data-theme='dark'] .card-got {
+  background-color: #2d2d2d; /* Dark background color for card */
+}
+
+[data-theme='dark'] .card-title {
+  color: #ffffff; /* White text for card title in dark mode */
+}
+
+[data-theme='dark'] .card-text {
+  color: #b0b0b0; /* Lighter gray for card text in dark mode */
+}
