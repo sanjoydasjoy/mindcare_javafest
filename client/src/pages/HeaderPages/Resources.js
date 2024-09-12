@@ -5,9 +5,46 @@ const resources = [
   {
     category: "Articles",
     items: [
-      { title: "Building Resilience", description: "Learn strategies to bounce back from life's challenges.", url: "https://care-clinics.com/building-resilience-how-to-bounce-back-from-lifes-challenges/#:~:text=Ensure%20you%20get%20enough%20sleep,and%20engage%20in%20relaxation%20techniques.&text=Effective%20communication%20is%20crucial%20in,conflicts%20in%20a%20healthy%20way.&text=Maintain%20a%20positive%20outlook%20even%20in%20the%20face%20of%20adversity." },
-      { title: "Mindfulness Techniques", description: "Discover practical mindfulness exercises for daily life.", url: "https://www.calm.com/blog/mindfulness-exercises" },
-      { title: "Improving Sleep Habits", description: "Tips for better sleep and improved mental health.", url: "https://namica.org/blog/better-sleep-to-maintain-mental-health/" },
+      { 
+        title: "Building Resilience", 
+        description: "Learn strategies to bounce back from life's challenges.", 
+        url: "https://care-clinics.com/building-resilience-how-to-bounce-back-from-lifes-challenges/#:~:text=Ensure%20you%20get%20enough%20sleep,and%20engage%20in%20relaxation%20techniques.&text=Effective%20communication%20is%20crucial%20in,conflicts%20in%20a%20healthy%20way.&text=Maintain%20a%20positive%20outlook%20even%20in%20the%20face%20of%20adversity." 
+      },
+      { 
+        title: "Mindfulness Techniques", 
+        description: "Discover practical mindfulness exercises for daily life.", 
+        url: "https://www.calm.com/blog/mindfulness-exercises" 
+      },
+      { 
+        title: "Improving Sleep Habits", 
+        description: "Tips for better sleep and improved mental health.", 
+        url: "https://namica.org/blog/better-sleep-to-maintain-mental-health/" 
+      },
+      { 
+        title: "Understanding Depression", 
+        description: "An overview of depression symptoms, causes, and treatment options.", 
+        url: "https://www.verywellmind.com/anxiety-disorders-4157261" 
+      },
+      { 
+        title: "The Power of Positive Thinking", 
+        description: "How positive thinking can improve your mental health.", 
+        url: "https://www.bettersleep.com/blog/how-positive-thinking-can-improve-your-mental-health" 
+      },
+      { 
+        title: "Cognitive Behavioral Therapy (CBT)", 
+        description: "Introduction to CBT techniques for managing mental health issues.", 
+        url: "https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral" 
+      },
+      { 
+        title: "Healthy Eating and Mental Health", 
+        description: "Explore the link between nutrition and mental well-being.", 
+        url: "https://www.healthline.com/nutrition/mental-health-and-diet" 
+      },
+      { 
+        title: "The Benefits of Physical Activity for Mental Health", 
+        description: "Learn how exercise can help alleviate anxiety and depression.", 
+        url: "https://www.mind.org.uk/information-support/tips-for-everyday-living/physical-activity-sport-and-exercise/" 
+      }
     ]
   },
   {
@@ -21,10 +58,10 @@ const resources = [
   {
     category: "YouTube Videos",
     items: [
-      { title: "Understanding Anxiety", url: "https://www.youtube.com/watch?v=rLm-A5QBBNw", description: "A comprehensive guide to understanding anxiety." },
-      { title: "Coping with Depression", url: "https://www.youtube.com/watch?v=WyQjjM3sFgQ", description: "Learn practical strategies for managing depression." },
-      { title: "Mindfulness for Anxiety", url: "https://www.youtube.com/watch?v=ogmYnEJXb8Q", description: "An introductory session on mindfulness techniques to manage anxiety." },
-    ]
+      { title: "Understanding Anxiety", url: "https://youtu.be/9mPwQTiMSj8?si=1vEjy6qleWvqt_yB", description: "A comprehensive guide to understanding anxiety." },
+      { title: "Coping with Depression", url: "https://youtu.be/lQhpetkwWnM?si=hpRGymJT_CEVg5WY", description: "Learn practical strategies for managing depression." },
+      { title: "Mindfulness for Anxiety", url: "https://youtu.be/v-w-vSvi-24?si=gf9fvvOLUI43wgVP", description: "An introductory session on mindfulness techniques to manage anxiety." },
+ ]
   }
 ];
 
@@ -137,7 +174,7 @@ export default function ResourcesPage() {
               <p style={descriptionStyle}>{item.description}</p>
               {item.url ? (
                 <a href={item.url} style={linkStyle} target="_blank" rel="noopener noreferrer">
-                  Read More
+                  {activeTab === "YouTube Videos" ? "Watch Video" : "Read More"}
                 </a>
               ) : (
                 <button style={{ backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', padding: '10px', cursor: 'pointer', fontSize: '14px' }}>
