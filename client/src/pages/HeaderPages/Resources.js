@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { BookOpen, Phone, Video, Users } from "lucide-react";
+import { BookOpen, Phone, Youtube } from "lucide-react";
 
 const resources = [
   {
     category: "Articles",
     items: [
-      { title: "Building Resilience", description: "Learn strategies to bounce back from life's challenges." },
-      { title: "Mindfulness Techniques", description: "Discover practical mindfulness exercises for daily life." },
-      { title: "Improving Sleep Habits", description: "Tips for better sleep and improved mental health." },
+      { title: "Building Resilience", description: "Learn strategies to bounce back from life's challenges.", url: "https://care-clinics.com/building-resilience-how-to-bounce-back-from-lifes-challenges/#:~:text=Ensure%20you%20get%20enough%20sleep,and%20engage%20in%20relaxation%20techniques.&text=Effective%20communication%20is%20crucial%20in,conflicts%20in%20a%20healthy%20way.&text=Maintain%20a%20positive%20outlook%20even%20in%20the%20face%20of%20adversity." },
+      { title: "Mindfulness Techniques", description: "Discover practical mindfulness exercises for daily life.", url: "https://www.calm.com/blog/mindfulness-exercises" },
+      { title: "Improving Sleep Habits", description: "Tips for better sleep and improved mental health.", url: "https://namica.org/blog/better-sleep-to-maintain-mental-health/" },
     ]
   },
   {
@@ -19,21 +19,13 @@ const resources = [
     ]
   },
   {
-    category: "Videos",
+    category: "YouTube Videos",
     items: [
-      { title: "Stress Management", description: "A 10-minute guided meditation for stress relief." },
-      { title: "Positive Psychology", description: "Learn about the science of happiness and well-being." },
-      { title: "Cognitive Behavioral Therapy", description: "Introduction to CBT techniques you can use at home." },
+      { title: "Understanding Anxiety", url: "https://www.youtube.com/watch?v=rLm-A5QBBNw", description: "A comprehensive guide to understanding anxiety." },
+      { title: "Coping with Depression", url: "https://www.youtube.com/watch?v=WyQjjM3sFgQ", description: "Learn practical strategies for managing depression." },
+      { title: "Mindfulness for Anxiety", url: "https://www.youtube.com/watch?v=ogmYnEJXb8Q", description: "An introductory session on mindfulness techniques to manage anxiety." },
     ]
-  },
-  {
-    category: "Support Groups",
-    items: [
-      { title: "Wellness Warriors", description: "Weekly online meetings for general mental wellness." },
-      { title: "Grief and Loss", description: "A safe space to share and heal from loss." },
-      { title: "Mindfulness Meditation", description: "Group sessions for practicing mindfulness techniques." },
-    ]
-  },
+  }
 ];
 
 const getCategoryIcon = (category) => {
@@ -42,10 +34,8 @@ const getCategoryIcon = (category) => {
       return <BookOpen className="icon" />;
     case "Hotlines":
       return <Phone className="icon" />;
-    case "Videos":
-      return <Video className="icon" />;
-    case "Support Groups":
-      return <Users className="icon" />;
+    case "YouTube Videos":
+      return <Youtube className="icon" />;
     default:
       return null;
   }
@@ -116,14 +106,11 @@ export default function ResourcesPage() {
     color: isDarkMode ? '#dddddd' : '#333333',
   };
 
-  const buttonCardStyle = {
-    backgroundColor: '#007bff',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '4px',
-    padding: '10px',
+  const linkStyle = {
+    color: '#007bff',
+    textDecoration: 'none',
+    fontWeight: 'bold',
     cursor: 'pointer',
-    fontSize: '14px',
   };
 
   return (
@@ -148,9 +135,15 @@ export default function ResourcesPage() {
             <div key={index} style={cardStyle}>
               <h3 style={titleStyle}>{item.title}</h3>
               <p style={descriptionStyle}>{item.description}</p>
-              <button style={buttonCardStyle}>
-                Learn More
-              </button>
+              {item.url ? (
+                <a href={item.url} style={linkStyle} target="_blank" rel="noopener noreferrer">
+                  Read More
+                </a>
+              ) : (
+                <button style={{ backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', padding: '10px', cursor: 'pointer', fontSize: '14px' }}>
+                  Learn More
+                </button>
+              )}
             </div>
           ))}
       </div>
