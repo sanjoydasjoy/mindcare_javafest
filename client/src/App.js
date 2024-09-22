@@ -8,6 +8,9 @@ import CounsellorBotChat from './pages/CommunityPages/CounsellorBotChat';
 import AnxietyAssessment from './pages/AssessmentPages/AnxietyAssessment';
 import DepressionScreening from './pages/AssessmentPages/DepressionScreening';
 import StressEvaluation from './pages/AssessmentPages/StressEvaluation';
+import Social_Anxiety from './pages/AssessmentPages/Social_Anxiety';
+import Panic_Disorder from './pages/AssessmentPages/Panic_Disorder';
+import ADHD_Assesment from './pages/AssessmentPages/ADHD_Assesment';
 
 import Conditions from './pages/HeaderPages/Conditions';
 import Resources from './pages/HeaderPages/Resources';
@@ -55,6 +58,9 @@ function App() {
             <Route path='/anxiety-assessment' element={<AnxietyAssessment />} />
             <Route path='/depression-screening' element={<DepressionScreening />} />
             <Route path='/stress-evaluation' element={<StressEvaluation />} />
+            <Route path='/social_anxiety_gauge' element={<Social_Anxiety />} />
+            <Route path='/panic_monitor' element={<Panic_Disorder />} />
+            <Route path='/adhd_clarity_check' element={<ADHD_Assesment />} />
 
 
             {/* routes for the header elements */}
