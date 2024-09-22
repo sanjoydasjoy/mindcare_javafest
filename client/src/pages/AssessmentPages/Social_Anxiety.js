@@ -36,7 +36,7 @@ const answerOptions = [
   { value: "3", label: "Severely" }
 ];
 
-export default function LSASAssessment() {
+export default function Social_Anxiety() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState(Array(24).fill(undefined));
   const [result, setResult] = useState(null);
