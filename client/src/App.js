@@ -17,6 +17,9 @@ import Resources from './pages/HeaderPages/Resources';
 import Contact from './pages/HeaderPages/Contact';
 import About from './pages/HeaderPages/About';
 
+import Login from './pages/HeaderPages/Login'
+import Signup from './pages/HeaderPages/SignUp'
+
 import MoodTracking from './pages/KeyFeaturePages/MoodTracking';
 import ActivityLogging from './pages/KeyFeaturePages/ActivityLogging';
 import PersonalizedGuidance from './pages/KeyFeaturePages/PersonalizedGuidance';
@@ -50,7 +53,7 @@ function App() {
           <Routes>
             {/* routes for the main page elemets */}
             <Route path="/" element={<Layout />} />
-           
+
             <Route path='/counsellors' element={<Counsellor />} />
             <Route path="/counsellor-bot" element={<CounsellorBotChat />} />
 
@@ -68,6 +71,10 @@ function App() {
             <Route path='/resources' element={<Resources />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
+
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+
 
             {/* Routes for specific conditions */}
             <Route path="/conditions/anxiety" element={<Anxiety />} />
