@@ -19,6 +19,15 @@ export default function MentalHealthAssessments() {
   const handleViewClick3 = () => {
     navigate('/stress-evaluation');
   };
+  const handleViewClick4 = () => {
+    navigate('/social_anxiety_gauge');
+  };
+  const handleViewClick5 = () => {
+    navigate('/panic_monitor');
+  };
+  const handleViewClick6 = () => {
+    navigate('/adhd_clarity_check');
+  };
 
   return (
     <section className="section">
@@ -49,6 +58,30 @@ export default function MentalHealthAssessments() {
           </p>
           <div className="card-got">
               <button className="button" onClick={handleViewClick3}>Start Evaluation</button>
+          </div>
+        </div>
+        <div className="card-got">
+          <h3 className="card-title">Social Anxiety Gauge</h3>
+          <p className="card-text">
+          Assess your social anxiety levels and uncover personalized strategies to help you navigate social interactions with greater confidence and ease.          </p>
+          <div className="card-got">
+              <button className="button" onClick={handleViewClick4}>Start Assessment</button>
+          </div>
+        </div>
+        <div className="card-got">
+          <h3 className="card-title">Panic Monitor</h3>
+          <p className="card-text">
+          Evaluate the intensity and frequency of your panic episodes, and get personalized techniques to help you manage and reduce panic attacks effectively.          </p>
+          <div className="card-got">
+              <button className="button" onClick={handleViewClick5}>Start Evaluation</button>
+          </div>
+        </div>
+        <div className="card-got">
+          <h3 className="card-title">ADHD Clarity Check</h3>
+          <p className="card-text">
+          Gauge your attention and focus levels with this ADHD assessment, and receive tailored strategies to improve clarity, concentration, and impulse control.          </p>
+          <div className="card-got">
+              <button className="button" onClick={handleViewClick6}>Start Checking</button>
           </div>
         </div>
       </div>
