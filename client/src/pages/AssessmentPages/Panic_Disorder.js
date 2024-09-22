@@ -21,7 +21,7 @@ const answerOptions = [
   { value: "4", label: "Extreme" }
 ];
 
-export default function PanicDisorderAssessment() {
+export default function Panic_Disorder() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [result, setResult] = useState(null);
