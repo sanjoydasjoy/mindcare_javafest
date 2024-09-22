@@ -49,6 +49,7 @@ function App() {
             <Route path="/" element={<Layout />} />
            
             <Route path='/counsellors' element={<Counsellor />} />
+            <Route path="/counsellor-bot" element={<CounsellorBotChat />} />
 
             {/* routes for the assessments */}
             <Route path='/anxiety-assessment' element={<AnxietyAssessment />} />
