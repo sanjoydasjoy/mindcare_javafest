@@ -36,7 +36,7 @@ const answerOptions = [
   { value: "4", label: "Very often" }
 ];
 
-export default function ADHDAssessment() {
+export default function ADHD_Assesment() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [result, setResult] = useState(null);
