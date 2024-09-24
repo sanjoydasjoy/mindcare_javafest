@@ -33,7 +33,7 @@ export default function Counsellor() {
 
   return (
     <section style={{ padding: '20px', fontFamily: 'sans-serif' }}>
-      <h2 style={{ textAlign: 'center', marginBottom: '30px' }}>Our Psychiatrists</h2>
+      <h2 style={{ textAlign: 'center', marginBottom: '30px' }}>Best Psychiatrists near You!</h2>
 
       {/* City Filter Dropdown */}
       <select 
