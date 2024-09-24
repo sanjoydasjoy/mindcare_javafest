@@ -1,71 +1,47 @@
 .auth-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    background-color: #f7f7f7;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .auth-header {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .auth-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 0.9rem;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .auth-button {
-    padding: 10px 15px;
-    font-size: 1.1rem;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .auth-footer {
-    margin-top: 15px;
-    text-align: center;
-  }
-  
-  .auth-footer p {
-    font-size: 0.9rem;
-  }
-  
-  .auth-footer a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .auth-footer a:hover {
-    text-decoration: underline;
-  }
-  
+  max-width: 400px; /* Set max width for the form container */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.auth-header {
+  text-align: center; /* Center the header text */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below labels */
+}
+
+input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding for inputs */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.auth-button {
+  width: 100%; /* Full width for button */
+  padding: 10px; /* Padding for button */
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.auth-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.auth-footer {
+  text-align: center; /* Center footer text */
+}
