@@ -1,12 +1,13 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { Link } from 'react-router-dom';
-
+import { useState, useContext } from "react";
+import { useNavigate, Link } from "react-router-dom";
+import { UserContext } from '../../UserContext'; // Import UserContext
+import '../../Allcss/HeaderPages/Auth.css'; // Assuming a shared CSS for both login and signup
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const { setUserInfo } = useContext(UserContext); // Access setUserInfo from context
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -20,7 +21,9 @@ export default function Login() {
     });
 
     if (response.ok) {
-      // Handle successful login (e.g., redirect, set authentication state)
+      const userData = await response.json(); // Get user data from response
+      console.log("Logged in user data:", userData); // Log user data to console
+      setUserInfo(userData); // Store user data in context
       navigate("/dashboard");  // Redirect to a protected route
     } else {
       // Handle login error
