@@ -28,6 +28,12 @@ export default function MentalHealthAssessments() {
   const handleViewClick6 = () => {
     navigate('/adhd_clarity_check');
   };
+  const handleViewClick7 = () => {
+    navigate('/ocd_check');
+  };
+  const handleViewClick8 = () => {
+    navigate('/ptsd_clarity_check');
+  };
 
   return (
     <section className="section">
@@ -61,7 +67,7 @@ export default function MentalHealthAssessments() {
           </div>
         </div>
         <div className="card-got">
-          <h3 className="card-title">Social Anxiety Gauge</h3>
+          <h3 className="card-title">Social Anxiety Evalution</h3>
           <p className="card-text">
           Assess your social anxiety levels and uncover personalized strategies to help you navigate social interactions with greater confidence and ease.          </p>
           <div className="card-got">
@@ -82,6 +88,24 @@ export default function MentalHealthAssessments() {
           Gauge your attention and focus levels with this ADHD assessment, and receive tailored strategies to improve clarity, concentration, and impulse control.          </p>
           <div className="card-got">
               <button className="button" onClick={handleViewClick6}>Start Checking</button>
+          </div>
+        </div>
+
+        <div className="card-got">
+          <h3 className="card-title">OCD Check</h3>
+          <p className="card-text">
+          Assess your behaviors and thoughts with this OCD evaluation, and get customized strategies to reduce obsessive patterns and manage compulsive actions effectively.</p>   
+          <div className="card-got">
+              <button className="button" onClick={handleViewClick7}>Start Checking</button>
+          </div>
+        </div>
+
+        <div className="card-got">
+          <h3 className="card-title">PTSD Clarity Check</h3>
+          <p className="card-text">
+          Evaluate your stress and trauma responses with this PTSD assessment, and receive personalized strategies to manage flashbacks, anxiety, and emotional resilience.</p>   
+          <div className="card-got">
+              <button className="button" onClick={handleViewClick8}>Start Checking</button>
           </div>
         </div>
       </div>
