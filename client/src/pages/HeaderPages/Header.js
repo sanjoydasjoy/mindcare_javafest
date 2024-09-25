@@ -29,7 +29,7 @@ export default function Header() {
       <nav className="nav-links">
         <Link to="/conditions" className="nav-item">Conditions</Link>
         <Link to="/resources" className="nav-item">Resources</Link>
-        <Link to="/contact" className="nav-item">Contact</Link>
+        <Link to="/hotlines" className="nav-item">Hotlines</Link>
         <Link to="/about" className="nav-item">About</Link>
         <ThemeToggle />
 
