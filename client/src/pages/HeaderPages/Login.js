@@ -22,12 +22,11 @@ export default function Login() {
 
     if (response.ok) {
       const userData = await response.json(); // Get user data from response
-      console.log("Logged in user data:", userData); // Log user data to console
       setUserInfo(userData); // Store user data in context
       navigate("/dashboard");  // Redirect to a protected route
     } else {
-      // Handle login error
-      console.error("Login failed");
+      const errorMessage = await response.text(); // Get error message from response
+      alert(errorMessage || "Login failed. Please check your credentials and try again."); // Alert with error message
     }
   };
 
