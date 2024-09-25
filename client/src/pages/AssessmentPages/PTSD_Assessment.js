@@ -35,7 +35,7 @@ const answerOptions = [
   { value: "4", label: "Extremely" }
 ];
 
-export default function PTSDAssessment() {
+export default function PTSD_Assessment() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [result, setResult] = useState(null);
