@@ -32,7 +32,7 @@ const ociAnswerOptions = [
   { value: "4", label: "Extremely" }
 ];
 
-export default function OCDAssessment() {
+export default function OCD_Assesment() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [result, setResult] = useState(null);
