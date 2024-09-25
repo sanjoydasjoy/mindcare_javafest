@@ -16,9 +16,11 @@ import Conditions from './pages/HeaderPages/Conditions';
 import Resources from './pages/HeaderPages/Resources';
 import Contact from './pages/HeaderPages/Contact';
 import About from './pages/HeaderPages/About';
+import HotlinePage from './pages/HeaderPages/HotlinePage';
 
 import Login from './pages/HeaderPages/Login'
 import Signup from './pages/HeaderPages/SignUp'
+import Dashboard from './pages/HeaderPages/Dashboard'
 
 import MoodTracking from './pages/KeyFeaturePages/MoodTracking';
 import ActivityLogging from './pages/KeyFeaturePages/ActivityLogging';
@@ -71,9 +73,12 @@ function App() {
             <Route path='/resources' element={<Resources />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
+            <Route path='/hotlines' element={<HotlinePage />} />
 
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+
 
 
             {/* Routes for specific conditions */}
