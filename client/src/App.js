@@ -11,6 +11,8 @@ import StressEvaluation from './pages/AssessmentPages/StressEvaluation';
 import Social_Anxiety from './pages/AssessmentPages/Social_Anxiety';
 import Panic_Disorder from './pages/AssessmentPages/Panic_Disorder';
 import ADHD_Assesment from './pages/AssessmentPages/ADHD_Assesment';
+import OCD_Assesment from './pages/AssessmentPages/OCD_Assesment';
+import PTSD_Assesment from './pages/AssessmentPages/PTSD_Assesment';
 
 import Conditions from './pages/HeaderPages/Conditions';
 import Resources from './pages/HeaderPages/Resources';
@@ -66,6 +68,8 @@ function App() {
             <Route path='/social_anxiety_gauge' element={<Social_Anxiety />} />
             <Route path='/panic_monitor' element={<Panic_Disorder />} />
             <Route path='/adhd_clarity_check' element={<ADHD_Assesment />} />
+            <Route path='/ocd_check' element={<OCD_Assesment />} />
+            <Route path='/ptsd_clarity_check' element={<PTSD_Assesment />} />
 
 
             {/* routes for the header elements */}
