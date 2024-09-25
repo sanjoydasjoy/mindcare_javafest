@@ -120,3 +120,19 @@ header .nav-item:hover {
   object-fit: cover; /* Ensures the image fits within the circle */
   border: 2px solid white; /* Adds a white border for better visibility */
 }
+.dropdown-item {
+  margin: 5px 0; /* Some margin between items */
+  padding: 10px 20px; /* Add padding for better button feel */
+  background-color: #4caf50; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove borders */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer/hand icon on hover */
+  text-decoration: none; /* Remove underline from links */
+  display: block; /* Make it a block element */
+  width: 100%; /* Full width for better click area */
+}
+
+.dropdown-item:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
