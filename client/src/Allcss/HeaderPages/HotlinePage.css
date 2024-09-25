@@ -1,0 +1,30 @@
+.hotline-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hotline-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .hotline-card {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 250px;
+  }
+  
+  .hotline-card h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .hotline-card strong {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
