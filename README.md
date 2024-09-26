@@ -29,8 +29,8 @@ ___
 
 0. User Authentication (sign-up, login)
 1. Mood tracking: Gain insights into your mental health patterns and triggers with mood tracking.
-2. Activity logs:
-3. Personalized Guidance.
+2. Activity logs: Track your daily activities and gain insights from stored data to understand your mental health patterns.
+3. Personalized Guidance: Share your current situation and receive real-time, tailored advice powered by GPT.
 4. Self-Assessment Tools: Evaluate your mental health status and receive personalized recommendations. Assesments Covered- Anxiety Assessment, Depression Screening, Stress Evaluation, Social Anxiety Evalution, Panic Monitor, ADHD Clarity Check, OCD Check, PTSD Clarity Check.
 5. Connect with Experts: Bangladesh's Best Psychiatrists with Their Qualifications, Contact Information, and Chamber Details, with Sorting Features to Find Psychiatrists Based on Location.
 6. CounsellorBot: Our Personalised Chatbot For Any Kinds of Queries regarding Mental Health
@@ -42,7 +42,7 @@ ___
 
 
 Frontend Development: React, Node.js (with Yarn for package management), Bootstrap, and Vanilla CSS.<br><br>
-Backend Development: Spring Boot framework, MongoDB Atlas as the database, and JWT for authentication.
+Backend Development: Spring Boot framework, MongoDB Atlas as the database, JWT for authentication, and Gemini API for GPT-powered personalized guidance and counsellor bot.
 
 ___
 
@@ -78,8 +78,6 @@ If you have all these installed, proceed with the following steps to run the app
 
     ```bash
    cd client
-
-
 3. **Install the dependencies:**
 
     ```bash
