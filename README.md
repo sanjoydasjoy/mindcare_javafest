@@ -56,18 +56,18 @@ ___
 ## How to Run
 
 
-
-Prerequisites
+**Prerequisites:**
 Before running the app, make sure you have the following installed:
 
-Node.js (for the frontend)
-Yarn (for package management)
-Java Development Kit (JDK) (for running Spring Boot)
-Maven (for building and running the backend)
+Node.js (for the frontend)<br>
+Yarn (for package management)<br>
+Java Development Kit (JDK) (for running Spring Boot)<br>
+Maven (for building and running the backend)<br>
 
 <br>
+If you have all these installed, proceed with the following steps to run the application:
 
-To get started with this project, follow these steps:
+
 
 1. **Clone/Download this Repository:**
    ```bash
