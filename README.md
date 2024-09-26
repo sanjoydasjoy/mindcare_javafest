@@ -2,9 +2,11 @@
 **MindCare:** AI-Powered mental health platform MindCare leverages AI technology to deliver personalized mental health support, tips and resources.
 <br>
 
-**Key Features:** <br> <br>
+**Key Features:** <br> 
 
-Mood tracking. Activity logs. Personalized Guidance. <br> <br>
+Mood tracking. 
+Activity logs. 
+Personalized Guidance. <br> <br>
 
 **Mental Health Assessments:** <br> <br>
 
