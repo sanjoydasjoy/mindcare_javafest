@@ -1,5 +1,19 @@
-# Mindcare
+# MindCare
 AI-Powered mental health platform MindCare leverages AI technology to deliver personalized mental health support, tips and resources.
+
+___
+
+
+## Key Terms
+- [Introduction](#introduction)
+- [Key Features](#keyfeatures)
+- [Technologes Used](#technologiesused)
+- [UI Overview](#uioverview)
+- [How to run](#howtorun)
+- [Conclusion](#conclusion)
+
+
+___
 
 
 <br>
