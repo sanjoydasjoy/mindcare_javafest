@@ -9,7 +9,7 @@ ___
 - [Key Features](#keyfeatures)
 - [Technologies Used](#technologiesused)
 - [UI Overview](#uioverview)
-- [How to run](#howtorun)
+- [How to Run](#howtorun)
 - [Conclusion](#conclusion)
 
 
@@ -26,10 +26,48 @@ including a feature to find counselors or psychiatrists in your area. It also in
 making MindCare a holistic solution for mental well-being.
 
 
+___
+
+
+## Key Features
+
 
 Mood tracking.<br>  
 Activity logs. <br> 
-Personalized Guidance. <br> <br>
+Personalized Guidance. 
+
+
+___
+
+
+## Technogies Used
+
+
+
+___
+
+
+
+## UI Overview
+
+
+___
+
+
+## How to Run
+
+
+
+___
+
+
+
+## Conclusion
+
+
+___
+
+
 
 **Mental Health Assessments:** <br> <br>
 
