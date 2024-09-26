@@ -1,5 +1,7 @@
-# mindcare_javafest
-**MindCare:** AI-Powered mental health platform MindCare leverages AI technology to deliver personalized mental health support, tips and resources.
+# Mindcare
+AI-Powered mental health platform MindCare leverages AI technology to deliver personalized mental health support, tips and resources.
+
+
 <br>
 
 **Key Features:** <br> 
