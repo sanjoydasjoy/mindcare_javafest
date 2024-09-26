@@ -7,7 +7,7 @@ ___
 ## Key Terms
 - [Introduction](#introduction)
 - [Key Features](#keyfeatures)
-- [Technologes Used](#technologiesused)
+- [Technologies Used](#technologiesused)
 - [UI Overview](#uioverview)
 - [How to run](#howtorun)
 - [Conclusion](#conclusion)
@@ -16,9 +16,16 @@ ___
 ___
 
 
-<br>
+## Introduction
 
-**Key Features:** <br> 
+MindCare is an all-in-one mental health platform designed to offer comprehensive support for various mental health needs. 
+The app was inspired by the realization that no existing platform truly covers the full spectrum of mental health, 
+from resources and assessments for anxiety and disorders to professional counseling and psychiatric services. 
+MindCare aims to bridge this gap by providing a community space, assessments, and professional support, 
+including a feature to find counselors or psychiatrists in your area. It also includes chatbots to assist with immediate concerns, 
+making MindCare a holistic solution for mental well-being.
+
+
 
 Mood tracking.<br>  
 Activity logs. <br> 
