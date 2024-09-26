@@ -1,6 +1,6 @@
 # MindCare
 AI-Powered mental health platform MindCare leverages AI technology to deliver personalized mental health support, tips and resources.
-<br>
+
 ___
 
 
@@ -11,9 +11,9 @@ ___
 - [UI Overview](#ui-overview)
 - [How to Run](#how-to-run)
 - [Conclusion](#conclusion)
-<br>
+
 ___
-<br>
+
 ## Introduction
 
 MindCare is an all-in-one mental health platform designed to offer comprehensive support for various mental health needs. 
@@ -22,9 +22,9 @@ from resources and assessments for anxiety and disorders to professional counsel
 MindCare aims to bridge this gap by providing a community space, assessments, and professional support, 
 including a feature to find counselors or psychiatrists in your area. It also includes chatbots to assist with immediate concerns, 
 making MindCare a holistic solution for mental well-being.
-<br>
+
 ___
-<br>
+
 ## Key Features
 
 0. User Authentication (sign-up, login)
@@ -34,15 +34,15 @@ ___
 4. Assesments with Personalised Suggestions: Anxiety Assessment. Depression Screening. Stress Evaluation. Social Anxiety Evalution. Panic Monitor. ADHD Clarity Check. OCD Check. PTSD Clarity Check.
 5. Connect with Experts: Bangladesh's Best Psychiatrists with Their Qualifications, Contact Information, and Chamber Details, with Sorting Features to Find Psychiatrists Based on Location.
 6. CounsellorBot: Our Personalised Chatbot For Any Kinds of Queries regarding Mental Health
-<br>
+
 ___
-<br>
+
 ## Technologies Used
 
 
 Frontend Development: React, Node.js (with Yarn for package management), Bootstrap, and Vanilla CSS.<br><br>
 Backend Development: Spring Boot framework, MongoDB Atlas as the database, and JWT for authentication.
-<br>
+
 ___
 
 
