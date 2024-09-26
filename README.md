@@ -4,8 +4,8 @@
 
 **Key Features:** <br> 
 
-Mood tracking. 
-Activity logs. 
+Mood tracking.<br>  
+Activity logs. <br> 
 Personalized Guidance. <br> <br>
 
 **Mental Health Assessments:** <br> <br>
