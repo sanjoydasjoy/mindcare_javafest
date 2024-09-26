@@ -6,10 +6,10 @@ ___
 
 ## Key Terms
 - [Introduction](#introduction)
-- [Key Features](#keyfeatures)
-- [Technologies Used](#technologiesused)
-- [UI Overview](#uioverview)
-- [How to Run](#howtorun)
+- [Key Features](#key_features)
+- [Technologies Used](#technologies_used)
+- [UI Overview](#ui_overview)
+- [How to Run](#how_to_run)
 - [Conclusion](#conclusion)
 
 
@@ -46,7 +46,7 @@ ___
 ## Technologies Used
 
 
-Frontend Development: React, Node.js (with Yarn for package management), Bootstrap, and Vanilla CSS.<br>
+Frontend Development: React, Node.js (with Yarn for package management), Bootstrap, and Vanilla CSS.<br><br>
 Backend Development: Spring Boot framework, MongoDB Atlas as the database, and JWT for authentication.
 
 
