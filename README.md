@@ -6,11 +6,12 @@ ___
 
 ## Key Terms
 - [Introduction](#introduction)
-- [Key Features](#key_features)
-- [Technologies Used](#technologies_used)
-- [UI Overview](#ui_overview)
-- [How to Run](#how_to_run)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [UI Overview](#ui-overview)
+- [How to Run](#how-to-run)
 - [Conclusion](#conclusion)
+
 
 
 ___
