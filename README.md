@@ -31,10 +31,13 @@ ___
 
 ## Key Features
 
-
-Mood tracking.<br>  
-Activity logs. <br> 
-Personalized Guidance. 
+0. User Authentication (sign-up, login)
+1. Mood tracking.
+2. Activity logs. 
+3. Personalized Guidance.
+4. Assesments with Personalised Suggestions: Anxiety Assessment. Depression Screening. Stress Evaluation. Social Anxiety Evalution. Panic Monitor. ADHD Clarity Check. OCD Check. PTSD Clarity Check.
+5. Connect with Experts: Bangladesh's Best Psychiatrists with Their Qualifications, Contact Information, and Chamber Details, with Sorting Features to Find Psychiatrists Based on Location.
+6. CounsellorBot: Our Personalised Chatbot For Any Kinds of Queries regarding Mental Health
 
 
 ___
@@ -42,6 +45,9 @@ ___
 
 ## Technogies Used
 
+
+Frontend Development: React, Node.js (with Yarn for package management), Bootstrap, and Vanilla CSS.<br>
+Backend Development: Spring Boot framework, MongoDB Atlas as the database, and JWT for authentication.
 
 
 ___
