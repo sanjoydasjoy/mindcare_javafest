@@ -43,7 +43,7 @@ ___
 ___
 
 
-## Technogies Used
+## Technologies Used
 
 
 Frontend Development: React, Node.js (with Yarn for package management), Bootstrap, and Vanilla CSS.<br>
