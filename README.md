@@ -1,6 +1,5 @@
 # mindcare_javafest
-**MindCare: Your AI-Powered Mental Health Companion**
-MindCare leverages AI technology to deliver personalized mental health support, offering tailored tips and resources for a range of conditions.
+**MindCare:** Your AI-Powered Mental Health Companion MindCare leverages AI technology to deliver personalized mental health support, offering tailored tips and resources for a range of conditions.
 <br>
 
 **Key Features:** <br> <br>
