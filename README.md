@@ -55,6 +55,47 @@ ___
 
 ## How to Run
 
+To get started with this project, follow these steps:
+
+1. **Clone/Download this Repository:**
+   ```bash
+   git clone <repository-url>
+
+2. **Access the frontend folder in terminal:**
+
+    ```bash
+   cd client
+
+
+3. **Install the dependencies:**
+
+    ```bash
+   yarn install
+
+4. **Run the frontend:**
+
+    ```bash
+    yarn start
+
+5. **Access the backend folder in new terminal:**
+
+    ```bash
+   cd server
+
+5. **Install the dependencies:**
+
+    ```bash
+   mvn cleab install
+
+6. **Run the backend:**
+
+    ```bash
+    mvn spring-boot:run
+    
+    
+    
+
+
 
 
 ___
