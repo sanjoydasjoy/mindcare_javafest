@@ -28,8 +28,7 @@ making MindCare a holistic solution for mental well-being.
 
 
 ___
-
-
+<br><br>
 ## Key Features
 
 0. User Authentication (sign-up, login)
@@ -42,8 +41,7 @@ ___
 
 
 ___
-
-
+<br><br>
 ## Technologies Used
 
 
