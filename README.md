@@ -8,7 +8,6 @@ ___
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
-- [UI Overview](#ui-overview)
 - [How to Run](#how-to-run)
 - [Conclusion](#conclusion)
 
@@ -44,11 +43,6 @@ ___
 Frontend Development: React, Node.js (with Yarn for package management), Bootstrap, and Vanilla CSS.<br><br>
 Backend Development: Spring Boot framework, MongoDB Atlas as the database, JWT for authentication, and Gemini API for GPT-powered personalized guidance and counsellor bot.
 
-___
-
-
-
-## UI Overview
 
 
 ___
