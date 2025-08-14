@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-// Uncomment for logging functionality
 // import org.slf4j.Logger;
 // import org.slf4j.LoggerFactory;
 
@@ -18,7 +17,6 @@ public class ActivityController {
     @Autowired
     private ActivityLogService activityLogService;
 
-    // Uncomment and use logger for logging requests
     // private static final Logger logger = LoggerFactory.getLogger(ActivityController.class);
 
     @GetMapping("/{userId}")
@@ -26,7 +24,6 @@ public class ActivityController {
         // Uncomment for logging activity retrieval
         // logger.info("Fetching activity logs for user: {}", userId);
 
-        // Simple validation (optional)
         if (userId == null || userId.isEmpty()) {
             throw new IllegalArgumentException("User ID cannot be null or empty");
         }
@@ -42,3 +39,4 @@ public class ActivityController {
         return activityLogService.saveActivity(activityLog);
     }
 }
+
